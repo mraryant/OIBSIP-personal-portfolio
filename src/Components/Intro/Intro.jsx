@@ -48,7 +48,7 @@ const Intro = () => {
             </Link>
 
             <div className="i-icon">
-              <a href="" >
+              <a href="https://github.com/mraryant" >
                 <img src={Github} alt="" className="howerC"  />
               </a>
               <a href="https://www.linkedin.com/in/aryant-shrirang-62707122a/" className="x" target='blank'>

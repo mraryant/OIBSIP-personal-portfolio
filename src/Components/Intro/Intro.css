@@ -1,0 +1,154 @@
+.intro{
+    display:flex;
+    height: 77vh;
+    margin-top: 6rem;
+
+}
+.i-left{
+    display: flex;
+    position: relative;
+    flex:1;
+    flex-direction: column;
+    gap:2rem;
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+.i-name>:nth-child(1){
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(3){
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 10px;
+
+}
+.i-button{
+     width:  8rem;
+     height: 2rem;
+}
+.i-icon{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+.i-icon>*{ /*this is targating the all images of i icon*/
+    transform: scale(0.5)   ;
+}.i-icon>*:hover{
+    cursor: pointer;
+}
+
+.i-right{
+    flex:1;
+    position: relative;
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top:-9% ;
+}
+.i-right>:nth-child(2){
+    top:-4.6rem;
+    transform: scale(0.67);
+    left :-3rem;
+}
+.i-right>:nth-child(3){
+    transform: scale(1.4);
+    top:-85px;
+    left: 30%;
+    right: 70%;
+}
+.i-right>:nth-child(4){
+    transform: scale(0.7);
+    top: 170px;
+    left: -20%;
+}
+.i-right>:nth-child(5){
+    transform: scale(0.6);
+    top: -65px;
+    left: -20%;
+    border-radius: 50%;
+    padding: 0;
+     
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: -9;
+    top: -18%; 
+    left:56%;
+    filter: blur(72px);
+
+}
+.floating-div1 {
+    top:-4% ;
+    left:65%;
+    z-index: 0!important;
+    
+}
+.floating-div2 {
+    top:17rem ;
+    left:-1rem;
+     
+    
+}
+
+.howerC:hover{
+    transform: scale(1.5);
+  }
+
+
+@media screen and (max-width : 600px)
+{
+  .intro{
+    flex-direction:column ;
+    height: 60rem;
+    gap: 7rem;
+}
+  .i-right{
+   transform: scale(0.8);  
+   left:-3rem;
+}
+ .mqa{
+     
+   transform: scale(0.6) !important;
+}
+ .i-right .blur{
+    display: none;
+  
+}
+   .floating-div1 {
+    top:8rem;
+    left:14.5rem;
+    z-index: 1 !important;
+    
+}
+   .floating-div2 {
+    top:17rem;
+    left:0.6rem;
+    z-index: 1 !important;
+    
+}
+
+ 
+}
+ 
+

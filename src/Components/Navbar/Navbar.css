@@ -1,0 +1,82 @@
+  .n-wrapper{  /* thisis topmost class  and code */
+    height : 10vh;
+    display: flex;
+    justify-content: space-between;
+    position:static;
+  }  
+  .n-left{
+    flex:1;
+    display: flex; /* to aline items center*/
+    align-items: center;
+    gap: 2rem; /*gap between the items of this flex box */
+  } 
+  .n-name{
+    font-size: 1.3rem;
+    display: inline;
+    font-weight: bold;
+  }
+
+  .n-right{
+    display: flex;
+    flex :1; /* we have  flex 1  on left and right size so that both are taking 50- 50 % of width*/
+    align-items: center;
+    justify-content: center;
+    font-weight: 400 ;
+  }
+  .n-list{
+    flex: 10;
+    z-index: 1000;
+    
+  }  
+  .n-list > ul{
+    display: flex;
+    gap: 2rem; 
+    margin-right:4rem ;
+    cursor:pointer;
+  }
+  .n-list>ul>li:hover{
+    cursor:pointer;
+    transform: scale(1.5);
+    color : var(--orange)
+  }
+  .hoverTSF:hover{
+    cursor:pointer;
+    transform: scale(1.5);
+    color : var(--orange)
+  }
+  .n-button{
+    width: 9rem;
+    flex:2;
+  }
+
+  @media screen and (max-width : 600px)
+{
+  .n-list{
+    display: none;
+  }
+  .n-button
+  {
+    display: none;
+  }
+  .darkM
+  {
+    display: flex;
+    flex :1; /* we have  flex 1  on left and right size so that both are taking 50- 50 % of width*/
+    align-items: center;
+    justify-content: right;
+    font-weight: 400 ;
+  }
+  .n-wrapper{  /* thisis topmost class  and code */
+    height : 10vh;
+    display: inline;
+    justify-content: space-between;
+    position:static;
+  } 
+}
+
+
+.mirror-div {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+  

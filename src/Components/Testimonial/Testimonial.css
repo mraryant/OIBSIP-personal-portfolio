@@ -25,6 +25,13 @@
 
 .t-heading span:nth-of-type(2){
     color: var(--orange);
+    margin-left:  13px;
+    margin-right:  13px;
+}
+.t-heading span:nth-of-type(4){
+    color: var(--orange);
+    margin-left:  13px;
+    margin-right:  13px;
 }
 
 .t-blur1{

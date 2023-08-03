@@ -12,7 +12,7 @@ import { useContext } from "react";
 
 import { motion} from 'framer-motion';
 
-
+import {Link, link} from 'react-scroll'
 
 const Works = () => {
 
@@ -22,18 +22,20 @@ const Works = () => {
      <div className="works">
         {/* leftside  */}
         <div className="awesome">
-            <span style={{color:darkMode?'white':''}}>Works for All these </span>
+            <span style={{color:darkMode?'white':''}}>Open To Work for All</span>
             <span>Brands & Clients</span>
-            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit aliquam quisquam, repellat corrupti quos velit?
+            <span>  Open to team up with all brand, client, or company.  
             <br/>
-            Lorem,   adipisicing elit. Officiis, nesciunt? 
+            I value everyone's uniqueness and believe that working together creates amazing opportunities.
              <br />
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae debitis assumenda quis consequuntur amet?
+             Let's join forces to achieve remarkable things beyond limits.
             </span>
 
-            {/* download CV button  */} 
+            <Link spy={true} to='Contact' smooth={true}  >
+                      
+              <button className="button s-button" to='Contact'> Hire Me</button>
+            </Link>
             
-              <button className="button s-button"> Hire Me</button>
                 
                 <div className="blur s-blur"
                 style={{

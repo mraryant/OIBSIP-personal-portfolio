@@ -1,7 +1,7 @@
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
-import Resume from "./My resume  (2) (1).pdf"
+import Resume from "./My resume  (4).pdf"
 
 import React from 'react'
 import './Services.css'

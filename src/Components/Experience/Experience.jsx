@@ -9,7 +9,7 @@ const Experience = () => {
      <div className="experience" id='Experience'>
         {/* 1st  */}
         <div className="achivement">
-            <div className="circle">1+ </div>
+            <div className="circle">1 </div>
             <span>years</span>
             <span>Experience</span>
         </div>
@@ -21,7 +21,7 @@ const Experience = () => {
         </div>
         {/* 3rd  */}
         <div className="achivement">
-            <div className="circle">1+ </div>
+            <div className="circle">1 </div>
             <span>Companies</span>
             <span>work</span>
              
